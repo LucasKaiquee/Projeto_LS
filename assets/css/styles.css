@@ -1,0 +1,632 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Roboto";
+}
+
+body {
+    background-color: #131212;
+}
+
+nav {
+    background-color: #13ED9F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;  
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.fa-confluence {
+    font-size: 40px;
+}
+
+.btn-back {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.3s;
+}
+
+.btn-back:hover {
+    transform: scale(1.1);
+}
+
+span {
+    color: #13ED9F;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #13ED9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.fa-circle-arrow-left {
+    color: #13ED9F;
+}
+
+.service-contato {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+/*FORM*/
+
+.form-container h3 {
+    font-size: 30px;
+}
+
+.form-container {
+    background-color: #141C23;
+    width: 50%;
+    height: 700px;
+    align-items: flex-start;
+}
+
+.form-container h3 {
+    color: #13ED9F;
+    padding: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.input-item {
+    background-color: #373937;
+    height: 60px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    outline: 0;
+}
+
+.input-item:focus {
+    border: 1px solid #13ED9F;
+}
+
+.input-item:hover{
+    border: 1px solid #13ED9F;
+}
+
+.input-item::placeholder {
+    color: #fff;
+}
+
+.form textarea {
+    background-color: #373937;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    height: 250px;
+}
+
+.input-item:required:valid {
+    border: 1px solid #13ED9F;
+}
+
+.input-item:not(:placeholder-shown):invalid {
+    border: 1px solid #ed1e13;
+}
+
+.background {
+    width: 50%;
+    height: 700px;
+    background-image: url("../imgs/shutterstock_329205053-scaled-31.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*FOOTER*/
+
+footer{
+    border-bottom: 2px solid #13ED9F;
+    border-top: 2px solid #13ED9F;
+    padding: 60px 0;
+    margin: 30px auto;
+    width: 80%;
+}
+footer section .fa-confluence{
+    color: #13ED9F;
+    font-size: 80px;
+}
+
+.footer_logo h1 {
+    align-self: center;
+}
+
+footer h1{
+    color: white;
+    align-self: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+    
+}
+.footer_logo{
+    display:flex;
+    justify-content: center;
+}
+
+.footer_logo h1 {
+    position: absolute;
+    text-align: center;
+}
+
+.footer_logo i {
+    position: relative;
+    left: -250px;
+}
+
+.nossas_redes{
+    display: flex;
+    flex-wrap: wrap;
+    color: #13ED9F;
+    justify-content: center;
+    text-align: center;
+}
+.nossas_redes p{
+    flex-basis: 100%;
+    justify-content: center;
+    padding: 40px 0 20px 0;
+}
+
+footer .fa-brands{
+    color: #13ED9F;
+    padding: 0 10px;
+    font-size: 35px;
+}
+
+.nossas_redes i:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+}
+.voltar_topo{
+    width: 200px;
+    margin: auto;
+    padding-top: 40px ;
+    font-size: 15px;
+}
+
+.voltar_topo a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-circle-arrow-up{
+    color: #13ED9F;
+    font-size: 20px;
+}
+
+.back-top {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    transition: 0.3s;
+}
+
+.back-top:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 800px) {
+    .logo{
+        font-size: 16px;
+        gap: 10px;
+        display: none;
+    }
+
+    .logo i {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+        align-self: center;
+    }
+
+    .btn-back {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .form-container h3 {
+        font-size: 20px;
+    }
+
+    .input-item {
+        height: 30px;
+    }
+
+    .form textarea {
+        height: 150px;
+    }
+
+    .form-container {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    footer h1 {
+        font-size: 30px;
+        text-shadow: #161313 1px 0 10px;
+    }
+
+   .footer_logo i{
+        position: static;
+        opacity: 0.6;
+   }
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    font-weight: bold;
+    height: 100%;
+    font-size: 40px;
+}
+
+.item-menu {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+.item-menu:hover {
+    border-bottom: 1px solid #000;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#intro {
+    margin-top: 50px;
+    background-image: url("../imgs/tecnologia-da-informacao2.png");
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+}
+
+.content {
+    margin-left: 100px;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: -50px;
+}
+
+#intro h1 {
+    font-size: 60px;
+}
+
+#intro h3 {
+    font-size: 30px;
+}
+
+#intro h5 {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#about i {
+    color: #13ED9F;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 90%;
+}
+
+
+.make img {
+    left: 50%;
+    position: relative;
+    z-index: -1;
+}
+
+.make div {
+    position: absolute;
+}
+
+.history img {
+    position: relative;
+    z-index: -1;
+}
+
+.history div{
+    position: absolute;
+    left: 45%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #intro {
+        background-image: url("../imgs/backprincipal-mobile.png");
+        background-size: 100%;
+        margin-top: 0;
+    }
+
+    header ul {
+        gap: 40px;
+    }
+
+    #intro h1 {
+        font-size: 50px;
+    }
+
+    #intro h3 {
+        font-size: 20px;
+    }
+
+    #intro h5 {
+        font-size: 16px;
+    }
+
+    .make div, .history div {
+        height: 220px;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    #about img {
+        height: 240px;
+    }
+
+    #about h2 {
+        font-size: 16px;
+    }
+
+    #about i {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+    }
+
+    header ul {
+        gap: 40px;
+    }
+
+    .content {
+        margin: 0;
+        text-align: center;
+        width: 95%;
+    }
+
+    #intro {
+        align-items: center;
+    }
+
+    #intro a {
+        display: inline-flex;
+        
+    }
+
+    #intro h1 {
+        font-size: 30px;
+    }
+
+    #intro h3 {
+        font-size: 14px;
+    }
+
+    #intro h5 {
+        font-size: 11px;
+    }
+
+    .make div, .history div {
+        height: 240px;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    #about img {
+        height: 240px;
+    }
+
+    #about h2 {
+        font-size: 16px;
+    }
+
+    .title-container {
+        font-size: 30px;
+    }
+
+    .make {
+        flex-direction: column;
+        
+    }
+
+    .make div, .history div{
+        width: 100%;
+        position:static;
+        font-size: 12px;
+    }
+
+    #about i {
+        font-size: 35px;
+    }
+
+    #about img {
+        display: none;
+    }
+
+    #contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .img-con {
+        display: none;
+    }
+
+    .inform-contact {
+        gap: 30px;
+    }
+
+    .desc {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #intro {
+        background-image: url("../imgs/backp-mob.png");
+    }
+
+    .item-menu {
+        font-size: 18px;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    #intro h3 {
+        font-size: 12px;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    .item-menu {
+        font-size: 14px;
+    }
+
+    .title-container {
+        font-size: 25px;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .make div, .history div {
+        height: 100%;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .make h2, .history h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #about a {
+        font-size: 16px;
+        border-bottom: 1px solid #13ED9F;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .form-container {
+        text-align: center;
+    }
+
+    .footer_logo h1 {
+        font-size: 20px;
+    }
+
+    .footer_logo .fa-brands {
+        font-size: 40px;
+    }
+
+    .nossas_redes {
+        font-size: 14px;
+    }
+
+    .nossas_redes i {
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+}
