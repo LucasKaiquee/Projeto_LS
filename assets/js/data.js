@@ -5,8 +5,8 @@ const serviceData = [
         path: './pages/desenvolvimento.html'
     },
     {
-        name: 'Segurança Digital:',
-        description: 'A segurança digital é fundamental nos dias de hoje, e oferecemos um serviço abrangente para proteger sua empresa contra ameaças cibernéticas. Nossa equipe de especialistas em segurança digital trabalha para identificar e mitigar vulnerabilidades, implementar medidas de proteção avançadas, como firewalls e sistemas de detecção de intrusão, além de fornecer monitoramento contínuo e resposta a incidentes. Nossa abordagem proativa garante que seus dados, sistemas e infraestrutura estejam seguros contra ataques cibernéticos.',
+        name: 'Descarte corretamente o seu lixo:',
+        description: 'O descarte correto do lixo é fundamental para a proteção do meio ambiente e da saúde pública. Ao descartar o lixo de forma correta, estamos evitando que ele contamine o solo, a água e o ar, causando diversos problemas ambientais e de saúde. Confira mais informações acerca do descarte incorreto do lixo:',
         path: './pages/seguranca.html'
     },
     {
