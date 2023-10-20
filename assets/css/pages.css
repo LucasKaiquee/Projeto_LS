@@ -1,0 +1,283 @@
+#intro {
+    margin-top: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.consultoria {
+    background-image: url("../imgs/consultoria-de-arquitetura-de-ti1.png");
+}
+
+.desenvolvimento {
+    background-image: url("../imgs/tecnologia-empresas1.png");
+}
+
+.seguranca {
+    background-image: url("../imgs/seguranca_digital.jpg");
+}
+.sobre {
+    background-image: url("../imgs/sobre.jpg");
+}
+.content {
+    margin-top: -50px;
+    margin-left: 200px;
+}
+
+#intro h1 {
+    font-size: 60px;
+}
+
+#intro h3 {
+    font-size: 20px;
+    width: 70%;
+    margin-bottom: 5px
+}
+
+.title {
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+.service-description {
+    width: 80%;
+    height: 100%;
+    background-color: #141C23;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.service-description p {
+    color: #fff;
+    width: 80%;
+    padding:50px;
+    font-size: 18px;
+}
+
+.box-services {
+    width: 40%;
+    height: 300px;
+    background-color: #131212;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.box-services h3 {
+    color: #13ED9F;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.box-services p {
+    width: 90%;
+    height: 100%;
+    font-size: 80%;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.service-content {
+    width: 80%;
+    height: 100%;
+    background-color: #141C23;
+    margin: 30px auto;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.title-content {
+    margin: 0;
+    padding: 50px 0 0 50px;
+}
+
+.service-content ul {
+    width: 80%;
+    color: #fff;
+    margin: 50px;
+}
+
+.service-content li {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+ .content {
+        margin-left: 100px;
+    }
+
+    .desenvolvimento {
+        background-image: url("../imgs/tecnologia-empresas 1.png");
+        background-position: center;
+    }
+
+    .consultoria {
+        background-image: url("../imgs/consultoria-de-arquitetura-de-ti12.png");
+        background-position: center;
+    }
+
+    .seguranca {
+        background-image: url("../imgs/Cybersecurity.png");
+        background-position: center;
+    }
+
+    .sobre {
+        background-image: url("../imgs/sobre_bkp.jpg");
+        background-position: center;
+    }
+
+    #intro h1 {
+        font-size: 40px;
+    }
+
+    #intro h3 {
+        font-size: 20px;
+    }
+
+    .title {
+        margin-left: 100px;
+        font-size: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .box-services {
+        width: 90%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .box-services h3 {
+        font-size: 18px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #intro h1 {
+        font-size: 30px;
+    }
+
+    #intro h3 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .content {
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+    .title {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .service-description p{
+        width: 95%;
+    }
+
+    .title-content {
+        margin-left: 0;
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .background{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #intro h1 {
+        font-size: 25px;
+    }
+
+    #intro h3 {
+        font-size: 14px;
+    }
+
+    .content {
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .content a {
+        display: inline-flex;
+    }
+
+    .title {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .service-description p{
+        font-size: 12px;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 20px;
+    }
+
+    .title-content {
+        margin-left: 0;
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .box-services h3{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .box-services p {
+        margin-left: 0;
+        font-size: 12px;
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .box-services {
+        padding: 0;
+        width: 100%;
+        height: 240px;
+    }
+
+    ul {
+        font-size: 14px;
+        list-style: none;
+        width: 100%;
+        position: relative;
+        right: 8%;
+    }
+
+    .service-description .edit-about {
+        text-align: left;
+    }
+}
+

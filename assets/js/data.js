@@ -11,7 +11,7 @@ const serviceData = [
     },
     {
         name: 'Securitas Environment na Mídia:',
-        description: 'Nossa consultoria de TI oferece orientação especializada para ajudar sua empresa a tomar decisões estratégicas relacionadas à tecnologia da informação. Nossa equipe de consultores experientes analisa suas necessidades e objetivos, avalia sua infraestrutura atual e propõe soluções sob medida para otimizar seus processos de negócio, aumentar a eficiência operacional e impulsionar a inovação tecnológica. Com nossa consultoria de TI, você pode contar com insights valiosos para tomar decisões informadas e alinhar sua estratégia de TI com seus objetivos empresariais.',
+        description: 'Nossa consultoria de TI oferece orientação especializada para ajudar sua empresa a tomar decisões estratégicas relacionadas à tecnologia da informação. Nossa equipe de consultores experientes analisa suas necessidades e objetivos, avalia sua infraestrutura atual e propõe soluções sob medida para otimizar seus processos de negócio, aumentar a eficiência operacional e impulsionar a inovação tecnológica.',
         path: './pages/consultoria.html'
     }
 ]
