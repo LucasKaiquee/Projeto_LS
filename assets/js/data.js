@@ -1,7 +1,7 @@
 const serviceData = [
     {
-        name: 'Desenvolvimento de Software:',
-        description: 'Nosso serviço de desenvolvimento de software oferece soluções personalizadas para atender às necessidades específicas da sua empresa. Nossa equipe de desenvolvedores altamente qualificados utiliza as mais recentes tecnologias e práticas de programação para criar aplicativos e sistemas eficientes, escaláveis e intuitivos. Desde o planejamento e design até a implementação e manutenção.',
+        name: 'Recicle e Reuse o lixo no seu Campus:',
+        description: 'O lixo é um dos maiores problemas ambientais do mundo. A produção de resíduos sólidos cresce a cada ano, e o descarte inadequado pode causar danos irreversíveis ao meio ambiente. O reuso e a conscientização sobre lixo são duas práticas essenciais para a redução do impacto ambiental causado pelo lixo. Confira algumas ações que você pode adotar!',
         path: './pages/desenvolvimento.html'
     },
     {
@@ -10,7 +10,7 @@ const serviceData = [
         path: './pages/seguranca.html'
     },
     {
-        name: 'Consultoria em TI:',
+        name: 'Securitas Environment na Mídia:',
         description: 'Nossa consultoria de TI oferece orientação especializada para ajudar sua empresa a tomar decisões estratégicas relacionadas à tecnologia da informação. Nossa equipe de consultores experientes analisa suas necessidades e objetivos, avalia sua infraestrutura atual e propõe soluções sob medida para otimizar seus processos de negócio, aumentar a eficiência operacional e impulsionar a inovação tecnológica. Com nossa consultoria de TI, você pode contar com insights valiosos para tomar decisões informadas e alinhar sua estratégia de TI com seus objetivos empresariais.',
         path: './pages/consultoria.html'
     }
