@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'courier_prime';
+    src: url('../fonts/CourierPrime-Regular.ttf');
+}
+
+:root {
+    --primary-color: #279a2e;
+    --secondary-color: #066626;
+    --base-color: #EFEFEF;
+    --background-color: #95e49a;
+    --text-color: #1E1E1E;
+}
+
+.solution-description {
+    background-image: url(../imgs/recicle-e-reuse.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.solution-description h1 {
+    font-family: 'courier_prime';
+    color: var(--secondary-color);
+    font-size:  3rem;
+    text-align: center;
+}
+
+.solution-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.solution-info, .solution-info-2 {
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    width: 70%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.solution-info {
+    border-radius: 20px 20px 20px 0;
+}
+
+.solution-info-2 {
+    border-radius: 20px 20px 0px 20px;
+    align-self: flex-end;
+}
+
+.solution-description p {
+    opacity: 1;
+    font-weight: bold;
+    color: var(--base-color);
+}
+
+.page-content {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.page-content h2 {
+    font-family: 'courier_prime';
+    color: var(--secondary-color);
+}
+
+.page-info {
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.page-info p {
+    flex-basis: 70%;
+}
+
+.page-info a {
+    text-decoration: none;
+    flex-basis: 30%;
+    height: 50px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 2em;
+    font-family: 'courier_prime';
+    color: var(--secondary-color);
+}
+
+iframe {
+    align-self: center;
+}

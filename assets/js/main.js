@@ -1,9 +1,9 @@
 import serviceCard from "./components/serviceCard.js"
-import serviceData from "./data.js"
+import serviceData from "./data/data.js"
 
-const nav = document.querySelector(".nav");
+const nav = document.querySelector(".nav")
+const hamburger = document.querySelector(".hamburger")
 const containerService = document.getElementById('container-service')
-const hamburger = document.querySelector(".hamburger");
 const itemMenu = document.querySelectorAll(".item-menu")
 
 serviceData.map((service) => {
