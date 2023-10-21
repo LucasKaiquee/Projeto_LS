@@ -16,7 +16,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 100%;
     width: 80%;
     margin: auto;
     margin-top: 70px;
@@ -94,6 +94,10 @@ h5 {
     color: var(--secondary-color);
 }
 
-iframe {
+.iframe {
     align-self: center;
+}
+
+span{
+    color: var(--text-color);
 }

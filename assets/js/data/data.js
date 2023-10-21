@@ -8,7 +8,7 @@ const serviceData = [
     },
     {
         name: 'Descarte corretamente o seu lixo:',
-        description: 'O descarte correto do lixo é fundamental para a proteção do meio ambiente e da saúde pública. Ao descartar o lixo de forma correta, estamos evitando que ele contamine o solo, a água e o ar, causando diversos problemas ambientais e de saúde. Confira mais informações acerca do descarte incorreto do lixo:',
+        description: 'O descarte correto do lixo é fundamental para a proteção do meio ambiente e da saúde pública. Ao descartar o lixo de forma correta, estamos evitando que ele contamine o solo, a água e o ar, causando diversos problemas ambientais e de saúde. Confira mais informações acerca dos impactos ambientais provenientes do descarte incorreto do lixo:',
         path: path
     },
     {
