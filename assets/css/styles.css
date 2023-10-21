@@ -676,6 +676,9 @@ footer .fa-brands{
   }
 
 @media only screen and (max-width: 480px) {
+    #intro {
+        background-image: url("../imgs/a-background\ 1\ \(2\).png");
+    }
     #intro h1 {
         font-size: 2em;
     }
