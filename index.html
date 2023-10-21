@@ -10,11 +10,12 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <div class="logo">
                 <h2 class="logo-title">Securitas Environment</h2>
             </div>
-            <ul>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
                 <a href="#about" class="item-menu"><li>Sobre</li></a>
                 <a href="#solucoes" class="item-menu"><li>Soluções</li></a>
                 <a href="#contact" class="item-menu"><li>Contato</li></a>
@@ -33,7 +34,7 @@
         <section id="about"> 
             <h2 class="section-title">Quem Somos</h2>
             <div class="container-info"> 
-                <div>
+                <div class="about-content">
                     <div class="about-info">
                         <h3>Um farol na promoção de um futuro mais verde</h3>
                         <p>Somos uma empresa de tecnologia dedicada à educação ambiental que surgiu com a visão de catalisar mudanças significativas. Através de plataformas digitais e aplicativos interativos, promovemos e democratizamos o acesso a conhecimentos sobre conscientização e reutilização ambiental no Instituito Federal da Paraíba (IFPB).
@@ -43,7 +44,7 @@
                     <p class="about-history">Há alguns anos, um grupo de amigos, egressos do curso de Sistemas para Internet do IFPB e entusiastas da tecnologia se uniram com um objetivo em comum: criar uma empresa que unisse o poder da tecnologia com a importância de capacipar gerações futuras a cuidar do planeta com carinho e responsabilidade.</p>
                 </div>
                 
-                <img class="img-about" src="./assets/imgs/evvironment-museu.jpg" alt="">
+                <img class="img-about" src="./assets/imgs/evvironment-museu.jpg" alt="Imagem de um museu ambiental" loading="lazy">
             </div>
             
            
@@ -65,24 +66,24 @@
 
                 <div class="contact-container">
                     <i class="fa-solid fa-globe"></i>
-                    <div class="justify-self-center">
-                        <h4 class="text-xl">Nosso endereço:</h4> 
+                    <div>
+                        <h4>Nosso endereço:</h4> 
                         <p>Av. Primeiro de Maio, 720, Jaguaribe, João Pessoa - PB.</p>
                     </div>
                 </div>
 
-                <div class="contact-container flex items-center gap-5">
-                    <i class="fa-solid fa-envelope text-[50px] text-[#13ED9F]"></i>
-                    <div class="justify-self-center">
-                        <h4 class="text-xl">Nosso e-mail:</h4>
+                <div class="contact-container">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h4>Nosso e-mail:</h4>
                         <p>contato@securitasenvironment.com.br</p>
                     </div>
                 </div>
 
-                <div class="contact-container flex items-center gap-5">
-                    <i class="fa-solid fa-phone text-[50px] text-[#13ED9F]"></i>
-                    <div class="justify-self-center">
-                        <h4 class="text-xl">Nosso telefone:</h4>
+                <div class="contact-container">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Nosso telefone:</h4>
                         <p>+55 (83) 3513 - 3745</p>
                     </div>
                 </div>
@@ -102,7 +103,7 @@
 
         <section class="maps">
             <p>Nossa localização no <span>Google Maps</span></p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.917279419156!2d-34.87604522534956!3d-7.1355642928684695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB%20-%20Campus%20Jo%C3%A3o%20Pessoa!5e0!3m2!1spt-BR!2sbr!4v1684964439923!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-4/5 h-[300px] m-auto show"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.917279419156!2d-34.87604522534956!3d-7.1355642928684695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB%20-%20Campus%20Jo%C3%A3o%20Pessoa!5e0!3m2!1spt-BR!2sbr!4v1684964439923!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>        
     </main>
 
