@@ -1,6 +1,7 @@
 import serviceCard from "./components/serviceCard.js"
 import serviceData from "./data/data.js"
 import solutionData from "./data/pageData.js"
+import Swal from "sweetalert2"
 
 const nav = document.querySelector(".nav")
 const hamburger = document.querySelector(".hamburger")
@@ -31,7 +32,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const from = document.querySelector('form')
+const inputIitem = document.querySelectorAll('.input-item')
 
 from.addEventListener('submit', () => {
-    window.alert('teste')
+    Swal.fire({
+        icon: 'success',
+        title: 'Obrigado !',
+        showConfirmButton: false,
+        timer: 1500
+      })
+
+      inputIitem.forEach((item) => {
+        item.value = ''
+      })
 })
