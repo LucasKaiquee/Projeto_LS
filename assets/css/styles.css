@@ -386,6 +386,7 @@ header ul {
     color: var(--base-color);
     font-weight: bold;
     font-size: 1.2rem;
+    text-align: center;
     cursor: pointer;
     border: none;
 }
@@ -603,7 +604,7 @@ footer .fa-brands{
    
 }
 
-@media (max-width: 750px) {
+@media only screen and (max-width: 750px) {
     .logo-title {
         font-size: 1.1rem;
     }

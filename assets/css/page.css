@@ -11,6 +11,19 @@
     --text-color: #1E1E1E;
 }
 
+#btn {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--base-color);
+}
+
+#btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .solution-description {
     background-image: url(../imgs/recicle-e-reuse.jpg);
     background-size: contain;
@@ -100,4 +113,40 @@ h5 {
 
 span{
     color: var(--text-color);
+}
+
+@media only screen and (max-width: 600px) {
+    .solution-description {
+        background: none;
+    }
+
+    .solution-description h1 {
+        font-size: 2.3rem;
+    }
+
+    .solution-content {
+        align-items: center;
+    }
+
+    .solution-info-2 {
+        align-self: center;
+    }
+
+    .solution-info, .solution-info-2 {
+        width: 100%;
+    }
+
+    .page-info {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    #btn {
+        font-size: 1.1rem;
+    }
+
 }

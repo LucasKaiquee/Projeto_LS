@@ -13,7 +13,7 @@ const serviceData = [
     },
     {
         name: 'Securitas Environment na Mídia:',
-        description: 'Nossa consultoria de TI oferece orientação especializada para ajudar sua empresa a tomar decisões estratégicas relacionadas à tecnologia da informação. Nossa equipe de consultores experientes analisa suas necessidades e objetivos, avalia sua infraestrutura atual e propõe soluções sob medida para otimizar seus processos de negócio, aumentar a eficiência operacional e impulsionar a inovação tecnológica.',
+        description: 'A Securitas Environment tem sido destaque constante na mídia devido à sua abordagem inovadora e compromisso com a sustentabilidade. Como resultado, a empresa é frequentemente mencionada em reportagens, artigos e programas de televisão, consolidando sua reputação como uma influente defensora da conscientização ambiental na era digital.',
         path: path
     }
 ]
