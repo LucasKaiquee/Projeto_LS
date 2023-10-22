@@ -1,7 +1,6 @@
 import serviceCard from "./components/serviceCard.js"
 import serviceData from "./data/data.js"
 import solutionData from "./data/pageData.js"
-import Swal from "sweetalert2"
 
 const nav = document.querySelector(".nav")
 const hamburger = document.querySelector(".hamburger")

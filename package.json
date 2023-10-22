@@ -1,11 +1,10 @@
 {
     "type": "module",
     "dependencies": {
-        "sweetalert2": "^11.7.32",
         "vite": "^4.5.0"
     },
     "scripts": {
         "dev": "vite",
         "build": "vite build"
-      }
+    }
 }
