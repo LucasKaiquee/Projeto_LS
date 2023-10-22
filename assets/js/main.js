@@ -20,7 +20,6 @@ itemMenu.forEach((item) => {
 document.addEventListener('DOMContentLoaded', () => {
     const buttonPage = document.querySelectorAll(".button-page");
 
-    console.log(buttonPage)
     buttonPage.forEach((buttonPage, index) => {
         buttonPage.addEventListener('click', () => {
             const key = JSON.stringify(solutionData[index])
@@ -30,3 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 });
+
+const from = document.querySelector('form')
+
+from.addEventListener('submit', () => {
+    window.alert('teste')
+})

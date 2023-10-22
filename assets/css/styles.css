@@ -146,6 +146,22 @@ header ul {
     text-shadow: 0px 0px 30px rgb(0, 0, 0);
 }
 
+#typing::after {
+    content: '|';
+    margin-left: 5px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 #about {
     width: 80%;
     margin: auto;
