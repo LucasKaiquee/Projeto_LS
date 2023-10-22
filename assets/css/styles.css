@@ -241,6 +241,7 @@ header ul {
     text-align: center;
     border-radius: 20px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .card a:hover {

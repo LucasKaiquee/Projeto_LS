@@ -1,8 +1,12 @@
 import pageSolution from "./components/pageSalution.js"
-import solutionData from "./data/pageData.js"
-import page from "../js/main.js"
 
 const root = document.getElementById('root')
+const buttonBack = document.querySelector('#btn')
 
-root.insertAdjacentHTML('beforeend', pageSolution(solutionData[page]))
+const myData = JSON.parse(localStorage.getItem('myData'))
 
+if (myData) {
+    root.insertAdjacentHTML('beforeend', pageSolution(myData));
+} 
+
+buttonBack.addEventListener('click', () => window.location.href = '../../index.html')
