@@ -15,6 +15,9 @@ const pageSolution = (solutionType) => {
         
         </section>
         <div class="page-content">
+            <div class="maps">
+            ${solutionType.content}
+            </div>
             <h2>Como a Securitas Environment pode te ajudar ? </h2>
             <div class="page-info">
                 <p>Ao facilitar a monitorização do consumo de recursos, a redução do desperdício e a adoção de práticas eco-amigáveis, nossa empresa inspira ações ecológicas, capacitando indivíduos a fazerem escolhas informadas e positivas em prol do nosso planeta.
@@ -22,7 +25,7 @@ const pageSolution = (solutionType) => {
     
                 <a href="" class="btn">Contate-nos</a>
             </div>
-    
+            
             <h5>Confira nossas dicas.</h5>
     
             <div class="iframe">

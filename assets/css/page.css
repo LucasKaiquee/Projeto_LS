@@ -111,7 +111,26 @@ h5 {
 .iframe {
     align-self: center;
 }
-
+.maps {
+    
+    font-family: 'courier_prime';
+    color: var(--secondary-color);
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.maps >h2 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.maps >h3{
+    font-size: 2rem;
+    font-family: 'courier_prime';
+    color: var(--primary-color);
+}
 span{
     color: var(--text-color);
 }
